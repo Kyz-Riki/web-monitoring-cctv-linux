@@ -1,0 +1,104 @@
+# ==============================================================================
+# go2rtc Configuration — CCTV Video Wall Management System
+# ==============================================================================
+#
+# NVR Dahua: 192.168.1.200
+# Port RTSP: 554
+#
+# Format RTSP Dahua:
+#   rtsp://USER:PASS@IP:554/cam/realmonitor?channel=CH&subtype=TYPE
+#   subtype=0 → Mainstream (resolusi tinggi, untuk zoom/fullscreen)
+#   subtype=1 → Substream  (resolusi rendah, untuk grid monitoring)
+#
+# PENTING:
+#   Pastikan substream NVR dikonfigurasi ke H.264 (bukan H.265)
+#   agar go2rtc TIDAK perlu transcode (hemat CPU).
+#
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# API & Web Server
+# ------------------------------------------------------------------------------
+api:
+  listen: ":1984"         # Web UI + API di port 1984
+  static_dir: "./web"     # Serve file HTML/CSS/JS dari folder ./web
+
+# ------------------------------------------------------------------------------
+# WebRTC
+# ------------------------------------------------------------------------------
+webrtc:
+  listen: ":8555"         # WebRTC UDP port
+
+# ------------------------------------------------------------------------------
+# Streams — Substream (untuk grid monitoring)
+# ------------------------------------------------------------------------------
+
+streams:
+
+  # === Pos (3 kamera) ===
+  cam-001: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=1&subtype=1   # Gerbang Depan 1
+  cam-002: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=2&subtype=1   # Pos Security
+  cam-021: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=21&subtype=1  # Gerbang Depan 2
+
+  # === Gedung Office (14 kamera) ===
+  cam-003: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=3&subtype=0   # Parkir Mobil
+  cam-004: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=4&subtype=0   # Hal Depan
+  cam-005: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=5&subtype=0   # Parkir Motor 2
+  cam-006: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=6&subtype=0   # Parkir Motor 1
+  cam-007: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=7&subtype=0   # Pintu Lobby
+  cam-008: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=8&subtype=0   # Pintu Masuk
+  cam-009: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=9&subtype=0   # Ruang Tamu
+  cam-010: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=10&subtype=0  # Coffee Break
+  cam-011: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=11&subtype=0  # Ruang Logistik
+  cam-012: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=12&subtype=0  # Lantai 2_1
+  cam-013: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=13&subtype=0  # Office Lantai 2
+  cam-014: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=14&subtype=0  # Lantai 2_3
+  cam-027: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=27&subtype=0  # Lantai 3
+  cam-028: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=28&subtype=0  # Server
+
+  # === Gedung Warehouse (6 kamera) ===
+  cam-015: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=15&subtype=1  # Hal Warehouse
+  cam-016: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=16&subtype=1  # Warehouse 1
+  cam-018: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=18&subtype=1  # Warehouse 2
+  cam-019: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=19&subtype=1  # Warehouse 3
+  cam-020: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=20&subtype=1  # Warehouse 4
+  cam-030: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=30&subtype=1  # Gerbang Warehouse
+
+  # === Gedung Service (5 kamera) ===
+  cam-022: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=22&subtype=1  # Ged 2_2
+  cam-023: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=23&subtype=1  # Ged 2_3
+  cam-024: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=24&subtype=1  # Ged 2_4
+  cam-025: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=25&subtype=1  # GD2 Gerbang Depan
+  cam-026: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=26&subtype=1  # Ged 2_5
+
+  # === Gedung Factory (2 kamera) ===
+  cam-029: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=29&subtype=1  # Ged 1_4
+  cam-031: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=31&subtype=1  # Area Painting
+
+  # === Mess (2 kamera) ===
+  cam-017: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=17&subtype=1  # Valvindo Unity Arena
+  cam-032: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=32&subtype=1  # Mesh
+
+  # === NVR Baru (192.168.1.100 - 15 kamera) ===
+  cam-033: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=1&subtype=1
+  cam-034: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=2&subtype=1
+  cam-035: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=3&subtype=1
+  cam-036: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=4&subtype=1
+  cam-037: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=5&subtype=1
+  cam-038: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=6&subtype=1
+  cam-039: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=7&subtype=1
+  cam-040: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=8&subtype=1
+  cam-041: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=9&subtype=1
+  cam-042: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=10&subtype=1
+  cam-043: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=11&subtype=1
+  cam-044: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=12&subtype=1
+  cam-045: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=13&subtype=1
+  cam-046: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=14&subtype=1
+  cam-047: rtsp://admin:admin123@192.168.1.100:554/cam/realmonitor?channel=15&subtype=1
+
+  # --------------------------------------------------------------------------
+  # Mainstream (opsional — untuk zoom/fullscreen view)
+  # --------------------------------------------------------------------------
+  # Uncomment jika ingin fitur zoom kamera ke resolusi tinggi.
+  # cam-001-main: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=1&subtype=0
+  # ...tambahkan sesuai kebutuhan

@@ -1,0 +1,427 @@
+{
+  "cameras": [
+    {
+      "id": "cam-001",
+      "name": "Gerbang Depan 1",
+      "area": "Pos",
+      "channel": 1,
+      "stream_id": "cam-001",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-002",
+      "name": "Pos Security",
+      "area": "Pos",
+      "channel": 2,
+      "stream_id": "cam-002",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-003",
+      "name": "Parkir Mobil",
+      "area": "Gedung Office",
+      "channel": 3,
+      "stream_id": "cam-003",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-004",
+      "name": "Hal Depan",
+      "area": "Gedung Office",
+      "channel": 4,
+      "stream_id": "cam-004",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-005",
+      "name": "Parkir Motor 2",
+      "area": "Gedung Office",
+      "channel": 5,
+      "stream_id": "cam-005",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-006",
+      "name": "Parkir Motor 1",
+      "area": "Gedung Office",
+      "channel": 6,
+      "stream_id": "cam-006",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-007",
+      "name": "Pintu Lobby",
+      "area": "Gedung Office",
+      "channel": 7,
+      "stream_id": "cam-007",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-008",
+      "name": "Pintu Masuk",
+      "area": "Gedung Office",
+      "channel": 8,
+      "stream_id": "cam-008",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-009",
+      "name": "Ruang Tamu",
+      "area": "Gedung Office",
+      "channel": 9,
+      "stream_id": "cam-009",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-010",
+      "name": "Coffee Break",
+      "area": "Gedung Office",
+      "channel": 10,
+      "stream_id": "cam-010",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-011",
+      "name": "Ruang Logistik",
+      "area": "Gedung Office",
+      "channel": 11,
+      "stream_id": "cam-011",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-012",
+      "name": "Lantai 2_1",
+      "area": "Gedung Office",
+      "channel": 12,
+      "stream_id": "cam-012",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-013",
+      "name": "Office Lantai 2",
+      "area": "Gedung Office",
+      "channel": 13,
+      "stream_id": "cam-013",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-014",
+      "name": "Lantai 2_3",
+      "area": "Gedung Office",
+      "channel": 14,
+      "stream_id": "cam-014",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-015",
+      "name": "Hal Warehouse",
+      "area": "Gedung Warehouse",
+      "channel": 15,
+      "stream_id": "cam-015",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-016",
+      "name": "Warehouse 1",
+      "area": "Gedung Warehouse",
+      "channel": 16,
+      "stream_id": "cam-016",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-017",
+      "name": "Valvindo Unity Arena",
+      "area": "Mess",
+      "channel": 17,
+      "stream_id": "cam-017",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-018",
+      "name": "Warehouse 2",
+      "area": "Gedung Warehouse",
+      "channel": 18,
+      "stream_id": "cam-018",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-019",
+      "name": "Warehouse 3",
+      "area": "Gedung Warehouse",
+      "channel": 19,
+      "stream_id": "cam-019",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-020",
+      "name": "Warehouse 4",
+      "area": "Gedung Warehouse",
+      "channel": 20,
+      "stream_id": "cam-020",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-021",
+      "name": "Gerbang Depan 2",
+      "area": "Pos",
+      "channel": 21,
+      "stream_id": "cam-021",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-022",
+      "name": "Ged 2_2",
+      "area": "Gedung Service",
+      "channel": 22,
+      "stream_id": "cam-022",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-023",
+      "name": "Ged 2_3",
+      "area": "Gedung Service",
+      "channel": 23,
+      "stream_id": "cam-023",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-024",
+      "name": "Ged 2_4",
+      "area": "Gedung Service",
+      "channel": 24,
+      "stream_id": "cam-024",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-025",
+      "name": "GD2 Gerbang Depan",
+      "area": "Gedung Service",
+      "channel": 25,
+      "stream_id": "cam-025",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-026",
+      "name": "Ged 2_5",
+      "area": "Gedung Service",
+      "channel": 26,
+      "stream_id": "cam-026",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-027",
+      "name": "Lantai 3",
+      "area": "Gedung Office",
+      "channel": 27,
+      "stream_id": "cam-027",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-028",
+      "name": "Server",
+      "area": "Gedung Office",
+      "channel": 28,
+      "stream_id": "cam-028",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-029",
+      "name": "Ged 1_4",
+      "area": "Gedung Factory",
+      "channel": 29,
+      "stream_id": "cam-029",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-030",
+      "name": "Gerbang Warehouse",
+      "area": "Gedung Warehouse",
+      "channel": 30,
+      "stream_id": "cam-030",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-031",
+      "name": "Area Painting",
+      "area": "Gedung Factory",
+      "channel": 31,
+      "stream_id": "cam-031",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-032",
+      "name": "Mesh",
+      "area": "Mess",
+      "channel": 32,
+      "stream_id": "cam-032",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-033",
+      "name": "NVR Baru Cam 1",
+      "area": "NVR Baru",
+      "channel": 1,
+      "stream_id": "cam-033",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-034",
+      "name": "NVR Baru Cam 2",
+      "area": "NVR Baru",
+      "channel": 2,
+      "stream_id": "cam-034",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-035",
+      "name": "NVR Baru Cam 3",
+      "area": "NVR Baru",
+      "channel": 3,
+      "stream_id": "cam-035",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-036",
+      "name": "NVR Baru Cam 4",
+      "area": "NVR Baru",
+      "channel": 4,
+      "stream_id": "cam-036",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-037",
+      "name": "NVR Baru Cam 5",
+      "area": "NVR Baru",
+      "channel": 5,
+      "stream_id": "cam-037",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-038",
+      "name": "NVR Baru Cam 6",
+      "area": "NVR Baru",
+      "channel": 6,
+      "stream_id": "cam-038",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-039",
+      "name": "NVR Baru Cam 7",
+      "area": "NVR Baru",
+      "channel": 7,
+      "stream_id": "cam-039",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-040",
+      "name": "NVR Baru Cam 8",
+      "area": "NVR Baru",
+      "channel": 8,
+      "stream_id": "cam-040",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-041",
+      "name": "NVR Baru Cam 9",
+      "area": "NVR Baru",
+      "channel": 9,
+      "stream_id": "cam-041",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-042",
+      "name": "NVR Baru Cam 10",
+      "area": "NVR Baru",
+      "channel": 10,
+      "stream_id": "cam-042",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-043",
+      "name": "NVR Baru Cam 11",
+      "area": "NVR Baru",
+      "channel": 11,
+      "stream_id": "cam-043",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-044",
+      "name": "Ged 1_1",
+      "area": "NVR Baru",
+      "channel": 12,
+      "stream_id": "cam-044",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-045",
+      "name": "Ged 1_2",
+      "area": "NVR Baru",
+      "channel": 13,
+      "stream_id": "cam-045",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-046",
+      "name": "NVR Baru Cam 14",
+      "area": "NVR Baru",
+      "channel": 14,
+      "stream_id": "cam-046",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-047",
+      "name": "Ged 1_3",
+      "area": "NVR Baru",
+      "channel": 15,
+      "stream_id": "cam-047",
+      "enabled": true,
+      "description": ""
+    }
+  ]
+}

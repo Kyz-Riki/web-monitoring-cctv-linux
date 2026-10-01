@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCTV Monitor</title>
+  <link rel="stylesheet" href="css/monitor.css">
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar" id="top-bar">
+    <div class="left">
+      <span class="monitor-label" id="monitor-label">Monitor</span>
+      <span class="preset-label" id="preset-name">—</span>
+    </div>
+    <div class="right">
+      <button id="btn-fullscreen" title="Fullscreen">⛶ Fullscreen</button>
+    </div>
+  </div>
+
+  <!-- Video Grid -->
+  <div class="video-grid" id="video-grid"></div>
+
+  <!-- Scripts -->
+  <script src="js/config.js?v=5"></script>
+  <script src="js/presets.js?v=5"></script>
+  <script src="js/webrtc.js?v=5"></script>
+  <script src="js/monitor.js?v=5"></script>
+
+</body>
+</html>

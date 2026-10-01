@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CCTV Video Wall — Dashboard</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="app-header">
+    <h1>📹 CCTV Video Wall</h1>
+    <p>Sistem monitoring CCTV — kelola layout, preset, dan monitor</p>
+  </header>
+
+  <!-- Tab Bar -->
+  <nav class="tab-bar">
+    <button class="tab-btn active" data-tab="presets">Preset Layout</button>
+    <button class="tab-btn" data-tab="designer">Layout Designer</button>
+    <button class="tab-btn" data-tab="monitors">Monitor Control</button>
+    <button class="tab-btn" data-tab="cameras">Daftar Kamera</button>
+  </nav>
+
+  <!-- ================================================================ -->
+  <!-- TAB 1: Preset Layout -->
+  <!-- ================================================================ -->
+  <div class="tab-content active" id="tab-presets">
+    <div class="section-header">
+      <h2>Preset Layout</h2>
+      <div class="flex gap-2">
+        <button class="btn btn-secondary" id="btn-export">📥 Export Semua</button>
+        <button class="btn btn-secondary" id="btn-import">📤 Import</button>
+      </div>
+    </div>
+    <div class="preset-grid" id="preset-list">
+      <!-- Rendered by app.js -->
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- TAB 2: Layout Designer -->
+  <!-- ================================================================ -->
+  <div class="tab-content" id="tab-designer">
+    <div class="section-header">
+      <h2>Layout Designer</h2>
+    </div>
+
+    <div class="designer-container">
+
+      <!-- Camera Sidebar -->
+      <div class="camera-sidebar">
+        <div class="sidebar-header">
+          <label>Cari Kamera</label>
+          <input type="text" id="designer-search" placeholder="Ketik nama kamera...">
+          <label class="mt-2">Filter Area</label>
+          <select id="designer-area-filter">
+            <option value="">Semua Area</option>
+          </select>
+        </div>
+        <div class="camera-list" id="camera-list">
+          <!-- Rendered by layout.js -->
+        </div>
+      </div>
+
+      <!-- Grid Editor -->
+      <div class="grid-editor">
+
+        <!-- Grid Controls -->
+        <div class="grid-controls">
+          <div class="size-input">
+            <label style="margin-bottom:0">Baris</label>
+            <input type="number" id="designer-rows" value="4" min="1" max="8">
+          </div>
+          <span style="color:#6b7280">×</span>
+          <div class="size-input">
+            <label style="margin-bottom:0">Kolom</label>
+            <input type="number" id="designer-cols" value="4" min="1" max="8">
+          </div>
+          <div class="quick-sizes">
+            <button class="btn btn-secondary btn-sm" data-grid-size="2x2">2×2</button>
+            <button class="btn btn-secondary btn-sm" data-grid-size="3x3">3×3</button>
+            <button class="btn btn-secondary btn-sm" data-grid-size="4x4">4×4</button>
+            <button class="btn btn-secondary btn-sm" data-grid-size="5x5">5×5</button>
+            <button class="btn btn-secondary btn-sm" data-grid-size="4x8">4×8</button>
+          </div>
+        </div>
+
+        <!-- Grid Preview -->
+        <div class="grid-preview" id="grid-preview">
+          <!-- Rendered by layout.js -->
+        </div>
+
+        <!-- Bottom Actions -->
+        <div class="designer-bottom">
+          <input type="text" id="preset-name-input" placeholder="Nama preset...">
+          <button class="btn btn-primary" id="btn-save-preset">💾 Simpan</button>
+          <button class="btn btn-success" id="btn-save-new">📋 Simpan sebagai Baru</button>
+          <button class="btn btn-secondary" id="btn-reset-designer">🔄 Reset</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- TAB 3: Monitor Control -->
+  <!-- ================================================================ -->
+  <div class="tab-content" id="tab-monitors">
+    <div class="section-header">
+      <h2>Monitor Control</h2>
+    </div>
+
+    <div class="monitor-cards">
+
+      <!-- Monitor 1 -->
+      <div class="monitor-card">
+        <h3>🖥️ Monitor 1</h3>
+        <div class="monitor-preset-name" id="monitor-1-preset">Belum dipilih</div>
+        <select id="monitor-1-select">
+          <option value="">— Pilih Preset —</option>
+        </select>
+        <div class="monitor-actions">
+          <button class="btn btn-primary" id="btn-apply-m1">Terapkan</button>
+          <button class="btn btn-success" id="btn-open-m1">🔲 Buka Monitoring</button>
+        </div>
+      </div>
+
+      <!-- Monitor 2 -->
+      <div class="monitor-card">
+        <h3>🖥️ Monitor 2</h3>
+        <div class="monitor-preset-name" id="monitor-2-preset">Belum dipilih</div>
+        <select id="monitor-2-select">
+          <option value="">— Pilih Preset —</option>
+        </select>
+        <div class="monitor-actions">
+          <button class="btn btn-primary" id="btn-apply-m2">Terapkan</button>
+          <button class="btn btn-success" id="btn-open-m2">🔲 Buka Monitoring</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center">
+      <button class="btn btn-primary" id="btn-open-all" style="padding:10px 24px; font-size:14px">
+        🖥️🖥️ Buka Semua Monitor
+      </button>
+    </div>
+
+    <p class="monitor-instructions mt-4">
+      Pindahkan setiap window ke monitor fisik yang sesuai, lalu tekan <strong>F11</strong> untuk fullscreen.
+    </p>
+  </div>
+
+  <!-- ================================================================ -->
+  <!-- TAB 4: Daftar Kamera -->
+  <!-- ================================================================ -->
+  <div class="tab-content" id="tab-cameras">
+    <div class="section-header">
+      <h2>Daftar Kamera</h2>
+    </div>
+
+    <div class="filter-row">
+      <input type="text" id="camera-search" placeholder="Cari kamera...">
+      <select id="camera-area-filter">
+        <option value="">Semua Area</option>
+      </select>
+    </div>
+
+    <div class="card">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Nama</th>
+              <th>Area</th>
+              <th>Channel</th>
+              <th>Stream ID</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody id="camera-tbody">
+            <!-- Rendered by app.js -->
+          </tbody>
+        </table>
+      </div>
+      <p class="text-muted text-sm mt-4">
+        Untuk menambah atau mengubah kamera, edit file <code>cameras.json</code> dan <code>go2rtc.yaml</code>, lalu refresh halaman ini.
+      </p>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Scripts (load order matters) -->
+  <script src="js/config.js"></script>
+  <script src="js/presets.js"></script>
+  <script src="js/layout.js"></script>
+  <script src="js/app.js"></script>
+
+</body>
+</html>

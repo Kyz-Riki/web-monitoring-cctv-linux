@@ -1,0 +1,98 @@
+{
+  "presets": [
+    {
+      "id": "preset-monitor-1",
+      "name": "Preset Monitor 1 (19 Cam)",
+      "columns": 5,
+      "rows": 4,
+      "slots": [
+        { "position": 0,  "camera_id": "cam-001" },
+        { "position": 1,  "camera_id": "cam-021" },
+        { "position": 2,  "camera_id": "cam-002" },
+        { "position": 3,  "camera_id": "cam-003" },
+        { "position": 4,  "camera_id": "cam-004" },
+        { "position": 5,  "camera_id": "cam-006" },
+        { "position": 6,  "camera_id": "cam-005" },
+        { "position": 7,  "camera_id": "cam-030" },
+        { "position": 8,  "camera_id": "cam-015" },
+        { "position": 9,  "camera_id": "cam-007" },
+        { "position": 10, "camera_id": "cam-008" },
+        { "position": 11, "camera_id": "cam-009" },
+        { "position": 12, "camera_id": "cam-010" },
+        { "position": 13, "camera_id": "cam-011" },
+        { "position": 14, "camera_id": "cam-012" },
+        { "position": 15, "camera_id": "cam-014" },
+        { "position": 16, "camera_id": "cam-013" },
+        { "position": 17, "camera_id": "cam-028" },
+        { "position": 18, "camera_id": "cam-027" }
+      ]
+    },
+    {
+      "id": "preset-monitor-2",
+      "name": "Preset Monitor 2 (16 Cam)",
+      "columns": 4,
+      "rows": 4,
+      "slots": [
+        { "position": 0,  "camera_id": "cam-016" },
+        { "position": 1,  "camera_id": "cam-018" },
+        { "position": 2,  "camera_id": "cam-019" },
+        { "position": 3,  "camera_id": "cam-020" },
+        { "position": 4,  "camera_id": "cam-025" },
+        { "position": 5,  "camera_id": "cam-022" },
+        { "position": 6,  "camera_id": "cam-023" },
+        { "position": 7,  "camera_id": "cam-024" },
+        { "position": 8,  "camera_id": "cam-026" },
+        { "position": 9,  "camera_id": "cam-044" },
+        { "position": 10, "camera_id": "cam-045" },
+        { "position": 11, "camera_id": "cam-047" },
+        { "position": 12, "camera_id": "cam-029" },
+        { "position": 13, "camera_id": "cam-031" },
+        { "position": 14, "camera_id": "cam-017" },
+        { "position": 15, "camera_id": "cam-032" }
+      ]
+    },
+    {
+      "id": "preset-semua-kamera",
+      "name": "Preset Semua kamera (berurutan)",
+      "columns": 8,
+      "rows": 4,
+      "slots": [
+        { "position": 0,  "camera_id": "cam-001" },
+        { "position": 1,  "camera_id": "cam-021" },
+        { "position": 2,  "camera_id": "cam-002" },
+        { "position": 3,  "camera_id": "cam-003" },
+        { "position": 4,  "camera_id": "cam-004" },
+        { "position": 5,  "camera_id": "cam-006" },
+        { "position": 6,  "camera_id": "cam-005" },
+        { "position": 7,  "camera_id": "cam-030" },
+        
+        { "position": 8,  "camera_id": "cam-015" },
+        { "position": 9,  "camera_id": "cam-007" },
+        { "position": 10, "camera_id": "cam-008" },
+        { "position": 11, "camera_id": "cam-009" },
+        { "position": 12, "camera_id": "cam-010" },
+        { "position": 13, "camera_id": "cam-011" },
+        { "position": 14, "camera_id": "cam-012" },
+        { "position": 15, "camera_id": "cam-013" },
+        
+        { "position": 16, "camera_id": "cam-028" },
+        { "position": 17, "camera_id": "cam-014" },
+        { "position": 18, "camera_id": "cam-027" },
+        { "position": 19, "camera_id": "cam-016" },
+        { "position": 20, "camera_id": "cam-018" },
+        { "position": 21, "camera_id": "cam-019" },
+        { "position": 22, "camera_id": "cam-020" },
+        { "position": 23, "camera_id": "cam-025" },
+        
+        { "position": 24, "camera_id": "cam-022" },
+        { "position": 25, "camera_id": "cam-023" },
+        { "position": 26, "camera_id": "cam-024" },
+        { "position": 27, "camera_id": "cam-026" },
+        { "position": 28, "camera_id": "cam-029" },
+        { "position": 29, "camera_id": "cam-031" },
+        { "position": 30, "camera_id": "cam-017" },
+        { "position": 31, "camera_id": "cam-032" }
+      ]
+    }
+  ]
+}
