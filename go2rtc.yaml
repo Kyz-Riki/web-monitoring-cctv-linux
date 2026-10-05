@@ -41,20 +41,20 @@ streams:
   cam-021: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=21&subtype=1  # Gerbang Depan 2
 
   # === Gedung Office (14 kamera) ===
-  cam-003: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=3&subtype=0   # Parkir Mobil
-  cam-004: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=4&subtype=0   # Hal Depan
-  cam-005: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=5&subtype=0   # Parkir Motor 2
-  cam-006: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=6&subtype=0   # Parkir Motor 1
-  cam-007: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=7&subtype=0   # Pintu Lobby
-  cam-008: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=8&subtype=0   # Pintu Masuk
-  cam-009: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=9&subtype=0   # Ruang Tamu
-  cam-010: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=10&subtype=0  # Coffee Break
-  cam-011: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=11&subtype=0  # Ruang Logistik
-  cam-012: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=12&subtype=0  # Lantai 2_1
-  cam-013: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=13&subtype=0  # Office Lantai 2
-  cam-014: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=14&subtype=0  # Lantai 2_3
-  cam-027: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=27&subtype=0  # Lantai 3
-  cam-028: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=28&subtype=0  # Server
+  cam-003: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=3&subtype=1   # Parkir Mobil
+  cam-004: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=4&subtype=1   # Hal Depan
+  cam-005: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=5&subtype=1   # Parkir Motor 2
+  cam-006: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=6&subtype=1   # Parkir Motor 1
+  cam-007: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=7&subtype=1   # Pintu Lobby
+  cam-008: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=8&subtype=1   # Pintu Masuk
+  cam-009: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=9&subtype=1   # Ruang Tamu
+  cam-010: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=10&subtype=1  # Coffee Break
+  cam-011: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=11&subtype=1  # Ruang Logistik
+  cam-012: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=12&subtype=1  # Lantai 2_1
+  cam-013: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=13&subtype=1  # Office Lantai 2
+  cam-014: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=14&subtype=1  # Lantai 2_3
+  cam-027: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=27&subtype=1  # Lantai 3
+  cam-028: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=28&subtype=1  # Server
 
   # === Gedung Warehouse (6 kamera) ===
   cam-015: rtsp://admin:admin123@192.168.1.200:554/cam/realmonitor?channel=15&subtype=1  # Hal Warehouse

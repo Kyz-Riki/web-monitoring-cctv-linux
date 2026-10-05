@@ -1,12 +1,12 @@
 /**
  * monitor.js — Monitor Page Logic
  * Reads ?id=1 or ?id=2, loads the assigned preset, builds the video grid,
- * and connects WebRTC streams.
+ * and connects MP4 streams via go2rtc.
  */
 (function () {
   /* ---- State ---- */
   var monitorId = '1';
-  var players = [];       // WebRTCPlayer instances
+  var players = [];       // MP4StreamPlayer instances
   var zoomedTile = null;  // currently zoomed tile element
   var idleTimer = null;
   var bc = null;          // BroadcastChannel
@@ -197,7 +197,7 @@
       var video = tile.querySelector('video');
       if (!video || !camId) return;
 
-      var player = new WebRTCPlayer(video, camId, {
+      var player = new MP4StreamPlayer(video, camId, {
         onStateChange: function (state) {
           updateTileStatus(tile, state);
         }
