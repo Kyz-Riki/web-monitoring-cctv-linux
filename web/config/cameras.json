@@ -422,6 +422,213 @@
       "stream_id": "cam-047",
       "enabled": true,
       "description": ""
+    },
+    {
+      "id": "cam-048",
+      "name": "NVR Baru Cam 16",
+      "area": "NVR Baru",
+      "channel": 16,
+      "stream_id": "cam-048",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-049",
+      "name": "NVR Baru Cam 17",
+      "area": "NVR Baru",
+      "channel": 17,
+      "stream_id": "cam-049",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-050",
+      "name": "NVR Baru Cam 18",
+      "area": "NVR Baru",
+      "channel": 18,
+      "stream_id": "cam-050",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-051",
+      "name": "NVR Baru Cam 19",
+      "area": "NVR Baru",
+      "channel": 19,
+      "stream_id": "cam-051",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-052",
+      "name": "NVR Baru Cam 20",
+      "area": "NVR Baru",
+      "channel": 20,
+      "stream_id": "cam-052",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-053",
+      "name": "NVR Baru Cam 21",
+      "area": "NVR Baru",
+      "channel": 21,
+      "stream_id": "cam-053",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-054",
+      "name": "NVR Baru Cam 22",
+      "area": "NVR Baru",
+      "channel": 22,
+      "stream_id": "cam-054",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-055",
+      "name": "NVR Baru Cam 23",
+      "area": "NVR Baru",
+      "channel": 23,
+      "stream_id": "cam-055",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-056",
+      "name": "NVR Baru Cam 24",
+      "area": "NVR Baru",
+      "channel": 24,
+      "stream_id": "cam-056",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-057",
+      "name": "NVR Baru Cam 25",
+      "area": "NVR Baru",
+      "channel": 25,
+      "stream_id": "cam-057",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-058",
+      "name": "NVR Baru Cam 26",
+      "area": "NVR Baru",
+      "channel": 26,
+      "stream_id": "cam-058",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-059",
+      "name": "NVR Baru Cam 27",
+      "area": "NVR Baru",
+      "channel": 27,
+      "stream_id": "cam-059",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-060",
+      "name": "NVR Baru Cam 28",
+      "area": "NVR Baru",
+      "channel": 28,
+      "stream_id": "cam-060",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-061",
+      "name": "NVR Baru Cam 29",
+      "area": "NVR Baru",
+      "channel": 29,
+      "stream_id": "cam-061",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-062",
+      "name": "NVR Baru Cam 30",
+      "area": "NVR Baru",
+      "channel": 30,
+      "stream_id": "cam-062",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-063",
+      "name": "NVR Baru Cam 31",
+      "area": "NVR Baru",
+      "channel": 31,
+      "stream_id": "cam-063",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-064",
+      "name": "NVR Baru Cam 32",
+      "area": "NVR Baru",
+      "channel": 32,
+      "stream_id": "cam-064",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-065",
+      "name": "NVR Baru Cam 33",
+      "area": "NVR Baru",
+      "channel": 33,
+      "stream_id": "cam-065",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-066",
+      "name": "NVR Baru Cam 34",
+      "area": "NVR Baru",
+      "channel": 34,
+      "stream_id": "cam-066",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-067",
+      "name": "NVR Baru Cam 35",
+      "area": "NVR Baru",
+      "channel": 35,
+      "stream_id": "cam-067",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-068",
+      "name": "NVR Baru Cam 36",
+      "area": "NVR Baru",
+      "channel": 36,
+      "stream_id": "cam-068",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-069",
+      "name": "NVR Baru Cam 37",
+      "area": "NVR Baru",
+      "channel": 37,
+      "stream_id": "cam-069",
+      "enabled": true,
+      "description": ""
+    },
+    {
+      "id": "cam-070",
+      "name": "NVR Baru Cam 38",
+      "area": "NVR Baru",
+      "channel": 38,
+      "stream_id": "cam-070",
+      "enabled": true,
+      "description": ""
     }
   ]
 }
