@@ -2,7 +2,7 @@
   "presets": [
     {
       "id": "preset-monitor-1",
-      "name": "Preset Monitor 1 (40 Cam)",
+      "name": "Preset Monitor 1 (37 Cam)",
       "columns": 8,
       "rows": 5,
       "slots": [
@@ -30,22 +30,19 @@
         { "position": 21, "camera_id": "cam-068" },
         { "position": 22, "camera_id": "cam-067" },
         { "position": 23, "camera_id": "cam-066" },
-        { "position": 24, "camera_id": "cam-050" },
-        { "position": 25, "camera_id": "cam-051" },
-        { "position": 26, "camera_id": "cam-052" },
-        { "position": 27, "camera_id": "cam-053" },
-        { "position": 28, "camera_id": "cam-054" },
-        { "position": 29, "camera_id": "cam-055" },
-        { "position": 30, "camera_id": "cam-056" },
-        { "position": 31, "camera_id": "cam-057" },
-        { "position": 32, "camera_id": "cam-058" },
-        { "position": 33, "camera_id": "cam-059" },
-        { "position": 34, "camera_id": "cam-060" },
-        { "position": 35, "camera_id": "cam-061" },
-        { "position": 36, "camera_id": "cam-062" },
-        { "position": 37, "camera_id": "cam-063" },
-        { "position": 38, "camera_id": "cam-064" },
-        { "position": 39, "camera_id": "cam-065" }
+        { "position": 24, "camera_id": "cam-051" },
+        { "position": 25, "camera_id": "cam-052" },
+        { "position": 26, "camera_id": "cam-053" },
+        { "position": 27, "camera_id": "cam-054" },
+        { "position": 28, "camera_id": "cam-056" },
+        { "position": 29, "camera_id": "cam-057" },
+        { "position": 30, "camera_id": "cam-058" },
+        { "position": 31, "camera_id": "cam-059" },
+        { "position": 32, "camera_id": "cam-060" },
+        { "position": 33, "camera_id": "cam-061" },
+        { "position": 34, "camera_id": "cam-062" },
+        { "position": 35, "camera_id": "cam-064" },
+        { "position": 36, "camera_id": "cam-065" }
       ]
     },
     {
