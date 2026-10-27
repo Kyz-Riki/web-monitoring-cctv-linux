@@ -2,7 +2,7 @@
   "presets": [
     {
       "id": "preset-monitor-1",
-      "name": "Preset Monitor 1 (37 Cam)",
+      "name": "Preset Monitor 1",
       "columns": 8,
       "rows": 5,
       "slots": [
@@ -47,7 +47,7 @@
     },
     {
       "id": "preset-monitor-2",
-      "name": "Preset Monitor 2 (16 Cam)",
+      "name": "Preset Monitor 2",
       "columns": 4,
       "rows": 4,
       "slots": [
