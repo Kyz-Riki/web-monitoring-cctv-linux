@@ -3,7 +3,7 @@
     {
       "id": "cam-001",
       "name": "Gerbang Depan 1",
-      "area": "Pos",
+      "area": "Area Depan",
       "channel": 1,
       "stream_id": "cam-001",
       "enabled": true,
@@ -11,8 +11,8 @@
     },
     {
       "id": "cam-002",
-      "name": "Pos Security",
-      "area": "Pos",
+      "name": "Gerbang Depan 2",
+      "area": "Area Depan",
       "channel": 2,
       "stream_id": "cam-002",
       "enabled": true,
@@ -20,8 +20,8 @@
     },
     {
       "id": "cam-003",
-      "name": "Parkir Mobil",
-      "area": "Gedung Office",
+      "name": "Pos Security",
+      "area": "Area Depan",
       "channel": 3,
       "stream_id": "cam-003",
       "enabled": true,
@@ -29,26 +29,26 @@
     },
     {
       "id": "cam-004",
-      "name": "Hal Depan",
-      "area": "Gedung Office",
+      "name": "Musholla",
+      "area": "Area Depan",
       "channel": 4,
       "stream_id": "cam-004",
-      "enabled": true,
-      "description": ""
+      "enabled": false,
+      "description": "Placeholder (menunggu channel NVR)"
     },
     {
       "id": "cam-005",
-      "name": "Parkir Motor 2",
-      "area": "Gedung Office",
+      "name": "Kantin",
+      "area": "Area Depan",
       "channel": 5,
       "stream_id": "cam-005",
-      "enabled": true,
-      "description": ""
+      "enabled": false,
+      "description": "Placeholder (menunggu channel NVR)"
     },
     {
       "id": "cam-006",
-      "name": "Parkir Motor 1",
-      "area": "Gedung Office",
+      "name": "Parkir Mobil",
+      "area": "Area Depan",
       "channel": 6,
       "stream_id": "cam-006",
       "enabled": true,
@@ -56,8 +56,8 @@
     },
     {
       "id": "cam-007",
-      "name": "Pintu Lobby",
-      "area": "Gedung Office",
+      "name": "Hal Depan",
+      "area": "Area Depan",
       "channel": 7,
       "stream_id": "cam-007",
       "enabled": true,
@@ -65,8 +65,8 @@
     },
     {
       "id": "cam-008",
-      "name": "Pintu Masuk",
-      "area": "Gedung Office",
+      "name": "Hal Warehouse",
+      "area": "Area Depan",
       "channel": 8,
       "stream_id": "cam-008",
       "enabled": true,
@@ -74,8 +74,8 @@
     },
     {
       "id": "cam-009",
-      "name": "Ruang Tamu",
-      "area": "Gedung Office",
+      "name": "Gerbang Warehouse",
+      "area": "Area Depan",
       "channel": 9,
       "stream_id": "cam-009",
       "enabled": true,
@@ -83,8 +83,8 @@
     },
     {
       "id": "cam-010",
-      "name": "Coffee Break",
-      "area": "Gedung Office",
+      "name": "Parkir Motor 1",
+      "area": "Area Depan",
       "channel": 10,
       "stream_id": "cam-010",
       "enabled": true,
@@ -92,8 +92,8 @@
     },
     {
       "id": "cam-011",
-      "name": "Ruang Logistik",
-      "area": "Gedung Office",
+      "name": "Parkir Motor 2",
+      "area": "Area Depan",
       "channel": 11,
       "stream_id": "cam-011",
       "enabled": true,
@@ -101,8 +101,8 @@
     },
     {
       "id": "cam-012",
-      "name": "Lantai 2_1",
-      "area": "Gedung Office",
+      "name": "Pintu Lobby",
+      "area": "Area Depan",
       "channel": 12,
       "stream_id": "cam-012",
       "enabled": true,
@@ -110,8 +110,8 @@
     },
     {
       "id": "cam-013",
-      "name": "Office Lantai 2",
-      "area": "Gedung Office",
+      "name": "Pintu Masuk",
+      "area": "Area Depan",
       "channel": 13,
       "stream_id": "cam-013",
       "enabled": true,
@@ -119,8 +119,8 @@
     },
     {
       "id": "cam-014",
-      "name": "Lantai 2_3",
-      "area": "Gedung Office",
+      "name": "Ruang Tamu",
+      "area": "Area Depan",
       "channel": 14,
       "stream_id": "cam-014",
       "enabled": true,
@@ -128,8 +128,8 @@
     },
     {
       "id": "cam-015",
-      "name": "Hal Warehouse",
-      "area": "Gedung Warehouse",
+      "name": "Coffee Break",
+      "area": "Area Depan",
       "channel": 15,
       "stream_id": "cam-015",
       "enabled": true,
@@ -137,8 +137,8 @@
     },
     {
       "id": "cam-016",
-      "name": "Warehouse 1",
-      "area": "Gedung Warehouse",
+      "name": "Ruang Logistik",
+      "area": "Area Depan",
       "channel": 16,
       "stream_id": "cam-016",
       "enabled": true,
@@ -146,8 +146,8 @@
     },
     {
       "id": "cam-017",
-      "name": "Valvindo Unity Arena",
-      "area": "Mess",
+      "name": "Lantai 2_1",
+      "area": "Area Depan",
       "channel": 17,
       "stream_id": "cam-017",
       "enabled": true,
@@ -155,8 +155,8 @@
     },
     {
       "id": "cam-018",
-      "name": "Warehouse 2",
-      "area": "Gedung Warehouse",
+      "name": "Office Lantai 2",
+      "area": "Area Depan",
       "channel": 18,
       "stream_id": "cam-018",
       "enabled": true,
@@ -164,8 +164,8 @@
     },
     {
       "id": "cam-019",
-      "name": "Warehouse 3",
-      "area": "Gedung Warehouse",
+      "name": "Lantai 2_3",
+      "area": "Area Depan",
       "channel": 19,
       "stream_id": "cam-019",
       "enabled": true,
@@ -173,8 +173,8 @@
     },
     {
       "id": "cam-020",
-      "name": "Warehouse 4",
-      "area": "Gedung Warehouse",
+      "name": "Server",
+      "area": "Area Depan",
       "channel": 20,
       "stream_id": "cam-020",
       "enabled": true,
@@ -182,8 +182,8 @@
     },
     {
       "id": "cam-021",
-      "name": "Gerbang Depan 2",
-      "area": "Pos",
+      "name": "Lantai 3",
+      "area": "Area Depan",
       "channel": 21,
       "stream_id": "cam-021",
       "enabled": true,
@@ -191,8 +191,8 @@
     },
     {
       "id": "cam-022",
-      "name": "Ged 2_2",
-      "area": "Gedung Service",
+      "name": "Pantry Lantai 3",
+      "area": "Area Depan",
       "channel": 22,
       "stream_id": "cam-022",
       "enabled": true,
@@ -200,8 +200,8 @@
     },
     {
       "id": "cam-023",
-      "name": "Ged 2_3",
-      "area": "Gedung Service",
+      "name": "Auditorium 1",
+      "area": "Area Depan",
       "channel": 23,
       "stream_id": "cam-023",
       "enabled": true,
@@ -209,8 +209,8 @@
     },
     {
       "id": "cam-024",
-      "name": "Ged 2_4",
-      "area": "Gedung Service",
+      "name": "Auditorium 2",
+      "area": "Area Depan",
       "channel": 24,
       "stream_id": "cam-024",
       "enabled": true,
@@ -218,8 +218,8 @@
     },
     {
       "id": "cam-025",
-      "name": "GD2 Gerbang Depan",
-      "area": "Gedung Service",
+      "name": "Failing Room",
+      "area": "Area Depan",
       "channel": 25,
       "stream_id": "cam-025",
       "enabled": true,
@@ -227,8 +227,8 @@
     },
     {
       "id": "cam-026",
-      "name": "Ged 2_5",
-      "area": "Gedung Service",
+      "name": "Office Lantai 3",
+      "area": "Area Depan",
       "channel": 26,
       "stream_id": "cam-026",
       "enabled": true,
@@ -236,8 +236,8 @@
     },
     {
       "id": "cam-027",
-      "name": "Lantai 3",
-      "area": "Gedung Office",
+      "name": "Warehouse 1",
+      "area": "Area Belakang",
       "channel": 27,
       "stream_id": "cam-027",
       "enabled": true,
@@ -245,8 +245,8 @@
     },
     {
       "id": "cam-028",
-      "name": "Server",
-      "area": "Gedung Office",
+      "name": "Warehouse 2",
+      "area": "Area Belakang",
       "channel": 28,
       "stream_id": "cam-028",
       "enabled": true,
@@ -254,8 +254,8 @@
     },
     {
       "id": "cam-029",
-      "name": "Ged 1_4",
-      "area": "Gedung Factory",
+      "name": "Warehouse 3",
+      "area": "Area Belakang",
       "channel": 29,
       "stream_id": "cam-029",
       "enabled": true,
@@ -263,8 +263,8 @@
     },
     {
       "id": "cam-030",
-      "name": "Gerbang Warehouse",
-      "area": "Gedung Warehouse",
+      "name": "Warehouse 4",
+      "area": "Area Belakang",
       "channel": 30,
       "stream_id": "cam-030",
       "enabled": true,
@@ -272,8 +272,8 @@
     },
     {
       "id": "cam-031",
-      "name": "Area Painting",
-      "area": "Gedung Factory",
+      "name": "GD2 Gerbang Depan",
+      "area": "Area Belakang",
       "channel": 31,
       "stream_id": "cam-031",
       "enabled": true,
@@ -281,8 +281,8 @@
     },
     {
       "id": "cam-032",
-      "name": "Mesh",
-      "area": "Mess",
+      "name": "Ged 2_2",
+      "area": "Area Belakang",
       "channel": 32,
       "stream_id": "cam-032",
       "enabled": true,
@@ -290,343 +290,100 @@
     },
     {
       "id": "cam-033",
-      "name": "GERBANG DEPAN 2",
-      "area": "Pos",
-      "channel": 1,
+      "name": "Ged 2_3",
+      "area": "Area Belakang",
+      "channel": 33,
       "stream_id": "cam-033",
       "enabled": true,
       "description": ""
     },
     {
       "id": "cam-034",
-      "name": "LANTAI 3",
-      "area": "Gedung Office",
-      "channel": 2,
+      "name": "Ged 2_4",
+      "area": "Area Belakang",
+      "channel": 34,
       "stream_id": "cam-034",
       "enabled": true,
       "description": ""
     },
     {
       "id": "cam-035",
-      "name": "VALVINDO UNITY ARENA",
-      "area": "Mess",
-      "channel": 3,
+      "name": "Ged 2_5",
+      "area": "Area Belakang",
+      "channel": 35,
       "stream_id": "cam-035",
       "enabled": true,
       "description": ""
     },
     {
       "id": "cam-036",
-      "name": "GERBANG DEPAN 1",
-      "area": "Pos",
-      "channel": 4,
+      "name": "Ged 2_container",
+      "area": "Area Belakang",
+      "channel": 36,
       "stream_id": "cam-036",
-      "enabled": true,
-      "description": ""
+      "enabled": false,
+      "description": "Placeholder (menunggu channel NVR)"
     },
     {
       "id": "cam-037",
-      "name": "POS SECURITY",
-      "area": "Pos",
-      "channel": 5,
+      "name": "Ged 1_1",
+      "area": "Area Belakang",
+      "channel": 37,
       "stream_id": "cam-037",
       "enabled": true,
       "description": ""
     },
     {
       "id": "cam-038",
-      "name": "PARKIR MOBIL",
-      "area": "Gedung Office",
-      "channel": 6,
+      "name": "Ged 1_2",
+      "area": "Area Belakang",
+      "channel": 38,
       "stream_id": "cam-038",
-      "enabled": true,
-      "description": ""
+      "enabled": false,
+      "description": "Placeholder (menunggu channel NVR)"
     },
     {
       "id": "cam-039",
-      "name": "PARKIR MOTOR 2",
-      "area": "Gedung Office",
-      "channel": 7,
+      "name": "Ged 1_3",
+      "area": "Area Belakang",
+      "channel": 39,
       "stream_id": "cam-039",
-      "enabled": true,
-      "description": ""
+      "enabled": false,
+      "description": "Placeholder (menunggu channel NVR)"
     },
     {
       "id": "cam-040",
-      "name": "PARKIR MOTOR 1",
-      "area": "Gedung Office",
-      "channel": 8,
+      "name": "Ged 1_4",
+      "area": "Area Belakang",
+      "channel": 40,
       "stream_id": "cam-040",
       "enabled": true,
       "description": ""
     },
     {
       "id": "cam-041",
-      "name": "PINTU LOBBY",
-      "area": "Gedung Office",
-      "channel": 9,
+      "name": "Area Painting",
+      "area": "Area Belakang",
+      "channel": 41,
       "stream_id": "cam-041",
       "enabled": true,
       "description": ""
     },
     {
       "id": "cam-042",
-      "name": "PINTU MASUK",
-      "area": "Gedung Office",
-      "channel": 10,
+      "name": "Valvindo Unity Arena",
+      "area": "Area Belakang",
+      "channel": 42,
       "stream_id": "cam-042",
       "enabled": true,
       "description": ""
     },
     {
       "id": "cam-043",
-      "name": "RUANG TAMU",
-      "area": "Gedung Office",
-      "channel": 11,
+      "name": "Mesh",
+      "area": "Area Belakang",
+      "channel": 43,
       "stream_id": "cam-043",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-044",
-      "name": "COFFEE BREAK",
-      "area": "Gedung Office",
-      "channel": 12,
-      "stream_id": "cam-044",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-045",
-      "name": "RUANG LOGISTIK",
-      "area": "Gedung Office",
-      "channel": 13,
-      "stream_id": "cam-045",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-046",
-      "name": "LANTAI 2_1",
-      "area": "Gedung Office",
-      "channel": 14,
-      "stream_id": "cam-046",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-047",
-      "name": "OFFICE_LANTAI2",
-      "area": "Gedung Office",
-      "channel": 15,
-      "stream_id": "cam-047",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-048",
-      "name": "LANTAI 2_3",
-      "area": "Gedung Office",
-      "channel": 16,
-      "stream_id": "cam-048",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-049",
-      "name": "SERVER",
-      "area": "Gedung Office",
-      "channel": 17,
-      "stream_id": "cam-049",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-050",
-      "name": "HAL WAREHOUSE",
-      "area": "Gedung Warehouse",
-      "channel": 18,
-      "stream_id": "cam-050",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-051",
-      "name": "WAREHOUSE 1",
-      "area": "Gedung Warehouse",
-      "channel": 19,
-      "stream_id": "cam-051",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-052",
-      "name": "WAREHOUSE 2",
-      "area": "Gedung Warehouse",
-      "channel": 20,
-      "stream_id": "cam-052",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-053",
-      "name": "WAREHOUSE 3",
-      "area": "Gedung Warehouse",
-      "channel": 21,
-      "stream_id": "cam-053",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-054",
-      "name": "WAREHOUSE 4",
-      "area": "Gedung Warehouse",
-      "channel": 22,
-      "stream_id": "cam-054",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-055",
-      "name": "HAL DEPAN",
-      "area": "Gedung Office",
-      "channel": 23,
-      "stream_id": "cam-055",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-056",
-      "name": "GD2 GERBANG DEPAN",
-      "area": "Gedung Service",
-      "channel": 24,
-      "stream_id": "cam-056",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-057",
-      "name": "GED 2_2",
-      "area": "Gedung Service",
-      "channel": 25,
-      "stream_id": "cam-057",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-058",
-      "name": "GED 2_3",
-      "area": "Gedung Service",
-      "channel": 26,
-      "stream_id": "cam-058",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-059",
-      "name": "GED 2_4",
-      "area": "Gedung Service",
-      "channel": 27,
-      "stream_id": "cam-059",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-060",
-      "name": "GED 2_5",
-      "area": "Gedung Service",
-      "channel": 28,
-      "stream_id": "cam-060",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-061",
-      "name": "GED 1_1",
-      "area": "Gedung Factory",
-      "channel": 29,
-      "stream_id": "cam-061",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-062",
-      "name": "GED 1_4",
-      "area": "Gedung Factory",
-      "channel": 30,
-      "stream_id": "cam-062",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-063",
-      "name": "GERBANG WAREHOUSE",
-      "area": "Gedung Warehouse",
-      "channel": 31,
-      "stream_id": "cam-063",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-064",
-      "name": "AREA PAINTING",
-      "area": "Gedung Factory",
-      "channel": 32,
-      "stream_id": "cam-064",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-065",
-      "name": "MESH",
-      "area": "Mess",
-      "channel": 33,
-      "stream_id": "cam-065",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-066",
-      "name": "PANTRY LANTAI 3",
-      "area": "Gedung Office",
-      "channel": 34,
-      "stream_id": "cam-066",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-067",
-      "name": "FAILING ROOM",
-      "area": "Gedung Office",
-      "channel": 35,
-      "stream_id": "cam-067",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-068",
-      "name": "AUDITORIUM_1",
-      "area": "Gedung Office",
-      "channel": 36,
-      "stream_id": "cam-068",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-069",
-      "name": "AUDITORIUM_2",
-      "area": "Gedung Office",
-      "channel": 37,
-      "stream_id": "cam-069",
-      "enabled": true,
-      "description": ""
-    },
-    {
-      "id": "cam-070",
-      "name": "OFFICE LANTAI 3",
-      "area": "Gedung Office",
-      "channel": 38,
-      "stream_id": "cam-070",
       "enabled": true,
       "description": ""
     }
